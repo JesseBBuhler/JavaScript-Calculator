@@ -1,0 +1,54 @@
+body {
+  padding: 1rem 3rem;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  border: solid gainsboro 1px;
+  border-style: outset;
+  border-radius: 4px;
+  width: 22.5rem;
+  padding: 0.5rem;
+  font-size: x-large;
+}
+
+.display {
+  height: 45px;
+  line-height: 45px;
+  text-align: end;
+  padding-right: 0.5rem;
+  border: solid gainsboro 1px;
+  grid-column: 1 / span 4;
+  margin: 0.5rem;
+  font-size: xx-large;
+}
+
+.button {
+  margin: 0.5rem;
+  height: 45px;
+  line-height: 45px;
+  border: solid gainsboro 1px;
+  border-style: outset;
+  border-radius: 4px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.button:hover {
+  border-color: black;
+}
+
+.operator {
+  background-color: darkgray;
+  font-weight: bold;
+}
+
+.submit {
+  color: white;
+  font-weight: bold;
+  background-color: dodgerblue;
+  grid-column: 4 / span 1;
+  grid-row: 3 / span 4;
+  height: auto;
+}
